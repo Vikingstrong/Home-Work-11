@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="src/output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="bg-[#212121]">
+<body class="bg-[#212121] text-white">
     <header class="max-w-300 m-auto flex justify-between p-5 lg:px-0 text-white items-center">
         <div class="flex items-center gap-4">
             <img class="w-[60%] lg:w-auto" src="src/imgpage1/header/logo.png" alt="">
@@ -28,8 +28,34 @@
         <i class="fa-solid fa-bars lg:hidden! text-2xl"></i>
     </header>
 <main>
-    <section style="background-image: url(src/imgpage1/section1/bg.png);" class="p-5 flex justify-center bg-no-repeat bg-cover">
+    <section style="background-image: url(src/imgpage1/section1/bg.png);" class="bg-position-[60%] lg:bg-position-[100%] p-5 flex justify-center bg-no-repeat bg-cover">
         <img class="pt-170" src="src/imgpage1/section1/img1.png" alt="">
+    </section>
+
+    <section class="max-w-300 m-auto flex flex-col px-5 py-15 lg:px-0 lg:py-40 gap-4">
+        <div class="flex flex-col gap-5 lg:flex-row mb-10 lg:gap-10">
+            <h1 class="text-4xl font-bold lg:text-6xl">Заголовок H1</h1>
+            <p class="text-4xl font-bold lg:text-6xl">Font Inter 60px</p>
+        </div>
+        <p class="lg:text-2xl">Хлебные крошки</p>
+        <p class="text-[#AEAEAE] text-[20px]">Главная - Главная - Главная</p>
+        <div class="flex flex-col gap-5 mt-5 lg:flex-row lg:items-center lg:justify-between">
+            <form class="bg-[#1E1E1E] p-6 shadow-[0_0_10px_#00000099] rounded-2xl flex flex-col gap-5 lg:px-15">
+                <h2 class="text-4xl font-bold text-center text-[#9B6D44] lg:text-6xl">Заполните поля</h2>
+                <input class="p-4 border border-white text-white placeholder:text-white rounded-4xl" type="text" placeholder="Имя">
+                <input class="p-4 border border-white text-white placeholder:text-white rounded-4xl" type="tel" placeholder="Телефон">
+                <input class="p-4 border border-white text-white placeholder:text-white rounded-4xl" type="email" placeholder="E-mail">
+                <p class="text-center flex gap-3 items-center text-[12px]"><input type="checkbox"> Соглашаюсь на обратку персональных данных</p>
+                <button class="p-4 bg-[#9B6D44] rounded-4xl text-[20px]">Отправить</button>
+            </form>
+            <form class="bg-[#1E1E1E] p-6 shadow-[0_0_10px_#00000099] rounded-2xl flex flex-col gap-5 lg:px-15">
+                <h2 class="text-4xl font-bold text-center text-[#9B6D44] lg:text-6xl">Авторизации</h2>
+                <input class="p-4 border border-white text-white placeholder:text-white rounded-4xl" type="text" placeholder="E-mail">
+                <input class="p-4 border border-white text-white placeholder:text-white rounded-4xl" type="password" placeholder="Пароль">
+                <a class="text-center text-[#9B6D44] text-[16px] lg:text-[20px] underline">Восстановить пароль</a>
+                <button class="p-4 bg-[#9B6D44] rounded-4xl text-[20px]">Отправить</button>
+            </form>
+        </div>
     </section>
 </main>
 </body>
