@@ -45,7 +45,7 @@
                 <input class="p-4 border border-white text-white placeholder:text-white rounded-4xl" type="text" placeholder="Имя">
                 <input class="p-4 border border-white text-white placeholder:text-white rounded-4xl" type="tel" placeholder="Телефон">
                 <input class="p-4 border border-white text-white placeholder:text-white rounded-4xl" type="email" placeholder="E-mail">
-                <p class="text-center flex gap-3 items-center text-[12px]"><input type="checkbox"> Соглашаюсь на обратку персональных данных</p>
+                <p class="text-center flex gap-3 items-center text-[12px] lg:text-[14px]"><input type="checkbox"> Соглашаюсь на обратку персональных данных</p>
                 <button class="p-4 bg-[#9B6D44] rounded-4xl text-[20px]">Отправить</button>
             </form>
             <form class="bg-[#1E1E1E] p-6 shadow-[0_0_10px_#00000099] rounded-2xl flex flex-col gap-5 lg:px-15">
@@ -55,6 +55,27 @@
                 <a class="text-center text-[#9B6D44] text-[16px] lg:text-[20px] underline">Восстановить пароль</a>
                 <button class="p-4 bg-[#9B6D44] rounded-4xl text-[20px]">Отправить</button>
             </form>
+        </div>
+        <div class="flex flex-col gap-5 mt-5 lg:flex-row lg:justify-between lg:mt-15">
+            <aside class="flex flex-col gap-5">
+                <h3 class="text-2xl">элементы чекбоксов, радио <br> кнопок, выбор из списка</h3>
+                <div class="flex flex-col gap-3 my-5">
+                    <p class="flex items-center gap-5 text-[14px]"><input type="checkbox">Соглашаюсь на обратку персональных данных</p>
+                    <p class="flex items-center gap-5 text-[14px]"><input type="checkbox">Соглашаюсь на обратку персональных данных</p>
+                </div>
+                <div class="flex flex-col gap-4 lg:flex-wrap lg:flex-row">
+                    <p class="flex items-center gap-3 text-[18px] lg:w-[40%]"><input type="radio" name="rd">Радио-кнопка 1</p>
+                    <p class="flex items-center gap-3 text-[18px] lg:w-[40%]"><input type="radio" name="rd">Радио-кнопка 2</p>
+                    <p class="flex items-center gap-3 text-[18px] lg:w-[40%]"><input type="radio" name="rd">Радио-кнопка 3</p>
+                    <p class="flex items-center gap-3 text-[18px] lg:w-[40%]"><input type="radio" name="rd">Радио-кнопка 4</p>
+                    <p class="flex items-center gap-3 text-[18px] lg:w-[40%]"><input type="radio" name="rd">Радио-кнопка 5</p>
+                    <p class="flex items-center gap-3 text-[18px] lg:w-[40%]"><input type="radio" name="rd">Радио-кнопка 6</p>
+                </div>
+            </aside>
+            <div class="flex flex-col gap-4 mt-5 lg:-mt-10">
+                    <button class="py-4 px-15 lg:px-40 bg-[#9B6D44] rounded-4xl text-xl">Отправить</button>
+                    <button class="py-4 px-15 lg:px-40 bg-[#55371D] rounded-4xl text-xl">Отмена</button>
+            </div>
         </div>
     </section>
 </main>
