@@ -25,7 +25,17 @@
         <a class="hidden lg:block text-[20px]" href="/src/page2.html">Галерея</a>
         <a class="hidden lg:block text-[20px]" href="/src/page3.html">Контентная страница</a>
         <a class="hidden lg:block text-[20px]" href="/src/page4.html">Магазин</a>
-        <i class="fa-solid fa-bars lg:hidden! text-2xl"></i>
+        <details class="lg:hidden flex flex-col items-center">
+            <summary class="list-none cursor-pointer transition duration-300 hover:scale-120">
+                <span class="text-2xl font-bold ">☰</span>
+            </summary>
+            <div class="flex flex-col gap-3">
+                <a class="text-[20px]" href="#">Главная</a>
+                <a class="text-[20px]" href="src/page2.html">Галерея</a>
+                <a class="text-[20px]" href="src/page3.html">Контентная страница</a>
+                <a class="text-[20px]" href="src/page4.html">Магазин</a>
+            </div>
+        </details>
     </header>
 <main>
     <section style="background-image: url(src/imgpage1/section1/bg.png);" class="bg-position-[60%] lg:bg-position-[100%] p-5 flex justify-center bg-no-repeat bg-cover">
